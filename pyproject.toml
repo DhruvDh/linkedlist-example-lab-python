@@ -1,0 +1,19 @@
+[project]
+name = "python-linkedlist-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Dhruv Dhamani", email = "dhruv.dhamani@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "cosmic-ray>=8.4.1",
+    "mutmut>=3.2.2",
+    "pytest-cov>=6.0.0",
+]
